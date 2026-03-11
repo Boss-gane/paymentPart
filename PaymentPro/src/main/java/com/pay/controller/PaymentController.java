@@ -32,6 +32,7 @@ public class PaymentController {
 	public ResponseEntity<String> orderFallBack(Exception e)
 	{
 		e.printStackTrace();
+		System.out.println("service down called......");
 		return new ResponseEntity<String>("Order service is down now...",HttpStatus.OK);
 	}
 	
