@@ -28,10 +28,6 @@ public class PaymentController {
 	    return ResponseEntity.ok(orderFinal + " order fetched from payment service....");
 	}
 
-	@GetMapping("/access-denied")
-    public String denied() {
-        return "Your email is not registered";
-    }
 	
 	public ResponseEntity<String> orderFallBack(Exception e)
 	{
