@@ -12,6 +12,7 @@ import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 @RestController
 public class PaymentController {
 	
+	
 	@Autowired
 	private RestTemplate restTemplate;
 	

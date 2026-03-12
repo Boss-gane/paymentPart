@@ -23,7 +23,7 @@ public class OAuthLoginSuccessHandler implements AuthenticationSuccessHandler {
     public OAuthLoginSuccessHandler(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-
+ 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request,
                                         HttpServletResponse response,
